@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="iResizer.exe" version="1.0.0.1" publicKeyToken="66bc8bdb754fc733" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="iResizer.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="iResizer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="iResizer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="iResizer.exe" size="233440">
+      <assemblyIdentity name="iResizer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VyadcZVhJc1C04Le21r0Yh/mA8KS3jYnqFRra7aRUwM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="iResizer.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iResizer.ico" size="97542">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0ewQzv4K6xgg2q+YqePZ05e6Vpv2Ak5M/YpOHUOfwcg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\badgeresize.png" size="12271">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ssMD5Ngjv01uo7lT1bI5GnwYBdYTJw4F5GAclqA0qRg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\emoteresize.png" size="11908">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XP1GDCE+7yH6Lh6tWXymYSV9o1tfPKHaTu8eSUoBWFg=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-1GD87DI\edson" issuerKeyHash="26af1986a9a78b67fac62e3f71db517afc8e822b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Fg5PYq1AUq0klsxKoHqst631pO2jD774xP9gJOlVUYs=</DigestValue></Reference></SignedInfo><SignatureValue>XsxSE/KBVc5/30YjynPjvqoNb0vtXLtl8FZReeiDwITs681TSTtE7yRC7ET2oHcTChgnPIQvYjoD2rZ7wlzqAf62LB9H4+ErK9/LF4ZePkCw298HjDHW6wub7jwMpwWLxaul27ugiiES2BNsRIqh6JS58riJvPPUEBwpyhwP3r8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0ApZuFORIzdPjIsr3IWopvmXBLfiYxMW1I3kLmpdMUJ43zT30ne2ThrmSJtJJUYn+q4qm+px0FaPE14hROa96mohUn17SeP7uFQNSZX43LjC6iS2XiHbckA6Z8v/WoIKr48LChm1Ml7Fd7rVwqWDgNVCHmafB6TP1mY5RfghP+E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8b5155e92460ffc4f8be0fa3eda4f5adb7ac7aa04acc9624ad5240ad624f0e16" Description="" Url=""><as:assemblyIdentity name="iResizer.exe" version="1.0.0.1" publicKeyToken="66bc8bdb754fc733" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-1GD87DI\edson</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>z+VdYuENtlLBDOw2vaqdkoAv/74V2gtu53kC3Hyoc9c=</DigestValue></Reference></SignedInfo><SignatureValue>rOBdrkLimmdUwIs4fwGeKF4D/zWqwuLq4tHmA9sk5L4jnRnipq/OHxt318fUSLGR7fti7+Pxh1jFuptu6HNSxqcRxCxlbOE5sXd8vCDWJI1UiLQn983stwjm6Mf5ivO/sW+68xohi3F0ydnyGWvbIaMpdcxdaVyk9FCkeVFPIBE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0ApZuFORIzdPjIsr3IWopvmXBLfiYxMW1I3kLmpdMUJ43zT30ne2ThrmSJtJJUYn+q4qm+px0FaPE14hROa96mohUn17SeP7uFQNSZX43LjC6iS2XiHbckA6Z8v/WoIKr48LChm1Ml7Fd7rVwqWDgNVCHmafB6TP1mY5RfghP+E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQK0TR2L3ra4NP4+i3DqK7mzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADEARwBEADgANwBEAEkAXABlAGQAcwBvAG4wHhcNMjAwMzE3MDEyMzQzWhcNMjEwMzE3MDcyMzQzWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADEARwBEADgANwBEAEkAXABlAGQAcwBvAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANAKWbhTkSM3T4yLK9yFqKb5lwS34mMTFtSN5C5qXTFCeN8099J3tk4a5kibSSVGJ/quKpvqcdBWjxNeIUTmvepqIVJ9e0nj+7hUDUmV+Ny4wuoktl4h23JAOmfL/1qCCq+PCwoZtTJexXe61cKlg4DVQh5mnwekz9ZmOUX4IT/hAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAZeadKETWGTm60CIvzbCq3WeRPUdd4581iaMlCpvwcetJxsKa3e4mq3fPjxHbehOi0cHDrmJ8Nuxv8fyQsVjAEsAeey0EMnYrzvmszLgX9yrXafu83S6yu5+DGs/Mh12ogyKzt2Jew9omZHlUq+ba3tGVHwccUX2NE7/OZUYqef4=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,14 @@
+C:\Users\edson\source\repos\iResizer\iResizer\bin\Debug\iResizer.exe.config
+C:\Users\edson\source\repos\iResizer\iResizer\bin\Debug\iResizer.exe
+C:\Users\edson\source\repos\iResizer\iResizer\bin\Debug\iResizer.pdb
+C:\Users\edson\source\repos\iResizer\iResizer\obj\Debug\iResizer.csprojAssemblyReference.cache
+C:\Users\edson\source\repos\iResizer\iResizer\obj\Debug\iResizer.Form1.resources
+C:\Users\edson\source\repos\iResizer\iResizer\obj\Debug\iResizer.Properties.Resources.resources
+C:\Users\edson\source\repos\iResizer\iResizer\obj\Debug\iResizer.csproj.GenerateResource.cache
+C:\Users\edson\source\repos\iResizer\iResizer\obj\Debug\iResizer.exe
+C:\Users\edson\source\repos\iResizer\iResizer\obj\Debug\iResizer.pdb
+C:\Users\edson\source\repos\iResizer\iResizer\obj\Debug\iResizer.csproj.CoreCompileInputs.cache
+C:\Users\edson\source\repos\iResizer\iResizer\bin\Debug\iResizer.exe.manifest
+C:\Users\edson\source\repos\iResizer\iResizer\bin\Debug\iResizer.application
+C:\Users\edson\source\repos\iResizer\iResizer\obj\Debug\iResizer.exe.manifest
+C:\Users\edson\source\repos\iResizer\iResizer\obj\Debug\iResizer.application
